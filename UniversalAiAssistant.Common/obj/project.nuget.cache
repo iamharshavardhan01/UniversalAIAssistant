@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "rNAvNJ3DRtA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\91903\\OneDrive\\Documents\\GitHub\\UniversalAIAssistant\\UniversalAiAssistant.Common\\UniversalAiAssistant.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\91903\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

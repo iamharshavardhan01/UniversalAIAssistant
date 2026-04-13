@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="../UniversalAiAssistant.BusinessLayer/UniversalAiAssistant.Application.csproj" />
+  <Project Path="../UniversalAiAssistant.Common/UniversalAiAssistant.Shared.csproj" />
+  <Project Path="../UniversalAiAssistant.Database/UniversalAiAssistant.Domain.csproj" />
+  <Project Path="../UniversalAiAssistant.Infrastructure/UniversalAiAssistant.Infrastructure.csproj" />
+  <Project Path="UniversalAIAssistant.csproj" />
+</Solution>

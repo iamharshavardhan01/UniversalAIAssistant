@@ -1,0 +1,6 @@
+@UniversalAIAssistant_HostAddress = http://localhost:5159
+
+GET {{UniversalAIAssistant_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
