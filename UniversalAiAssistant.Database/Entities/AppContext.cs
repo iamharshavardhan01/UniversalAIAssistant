@@ -2,9 +2,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace UniversalAiAssistant.Domain.Entities
 {
-    public class AppDBContext : DbContext
+    public class AppDbContext : DbContext
     {
-        public AppDBContext(DbContextOptions<AppDBContext> dbContextOptions) : base(dbContextOptions)
+        public AppDbContext(DbContextOptions<AppDbContext> dbContextOptions) : base(dbContextOptions)
         {
         }
 

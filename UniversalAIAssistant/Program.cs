@@ -7,7 +7,7 @@ using UniversalAIAssistant.Application.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 
-builder.Services.AddDbContext<AppDBContext>(options =>
+builder.Services.AddDbContext<AppDbContext>(options =>
 {
     var connectionString = builder.Configuration.GetConnectionString("MySqlConnection");
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));

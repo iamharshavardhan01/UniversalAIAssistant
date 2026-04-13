@@ -3,16 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\91903\\OneDrive\\Documents\\GitHub\\UniversalAIAssistant\\UniversalAIAssistant\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CA5935D3-5C4C-0441-B7BA-3E22F917A89B}|UniversalAIAssistant.csproj|c:\\users\\91903\\onedrive\\documents\\github\\universalaiassistant\\universalaiassistant\\universalaiassistant.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{CA5935D3-5C4C-0441-B7BA-3E22F917A89B}|UniversalAIAssistant.csproj|solutionrelative:universalaiassistant.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2EF8E2F7-FA42-506C-DDE3-02F8207A6201}|..\\UniversalAiAssistant.BusinessLayer\\UniversalAiAssistant.Application.csproj|c:\\users\\91903\\onedrive\\documents\\github\\universalaiassistant\\universalaiassistant.businesslayer\\universalaiassistant.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A119A1B3-DC98-AD80-8F4C-835C1B857DED}|..\\UniversalAiAssistant.Database\\UniversalAiAssistant.Domain.csproj|c:\\users\\91903\\onedrive\\documents\\github\\universalaiassistant\\universalaiassistant.database\\universalaiassistant.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CA5935D3-5C4C-0441-B7BA-3E22F917A89B}|UniversalAIAssistant.csproj|c:\\users\\91903\\onedrive\\documents\\github\\universalaiassistant\\universalaiassistant\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA5935D3-5C4C-0441-B7BA-3E22F917A89B}|UniversalAIAssistant.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -46,50 +36,11 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UniversalAIAssistant",
-              "DocumentMoniker": "C:\\Users\\91903\\OneDrive\\Documents\\GitHub\\UniversalAIAssistant\\UniversalAIAssistant\\UniversalAIAssistant.csproj",
-              "RelativeDocumentMoniker": "UniversalAIAssistant.csproj",
-              "ToolTip": "C:\\Users\\91903\\OneDrive\\Documents\\GitHub\\UniversalAIAssistant\\UniversalAIAssistant\\UniversalAIAssistant.csproj",
-              "RelativeToolTip": "UniversalAIAssistant.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-13T09:58:41.322Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UniversalAiAssistant.Application",
-              "DocumentMoniker": "C:\\Users\\91903\\OneDrive\\Documents\\GitHub\\UniversalAIAssistant\\UniversalAiAssistant.BusinessLayer\\UniversalAiAssistant.Application.csproj",
-              "RelativeDocumentMoniker": "..\\UniversalAiAssistant.BusinessLayer\\UniversalAiAssistant.Application.csproj",
-              "ToolTip": "C:\\Users\\91903\\OneDrive\\Documents\\GitHub\\UniversalAIAssistant\\UniversalAiAssistant.BusinessLayer\\UniversalAiAssistant.Application.csproj",
-              "RelativeToolTip": "..\\UniversalAiAssistant.BusinessLayer\\UniversalAiAssistant.Application.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-13T09:58:34.3Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UniversalAiAssistant.Domain",
-              "DocumentMoniker": "C:\\Users\\91903\\OneDrive\\Documents\\GitHub\\UniversalAIAssistant\\UniversalAiAssistant.Database\\UniversalAiAssistant.Domain.csproj",
-              "RelativeDocumentMoniker": "..\\UniversalAiAssistant.Database\\UniversalAiAssistant.Domain.csproj",
-              "ToolTip": "C:\\Users\\91903\\OneDrive\\Documents\\GitHub\\UniversalAIAssistant\\UniversalAiAssistant.Database\\UniversalAiAssistant.Domain.csproj",
-              "RelativeToolTip": "..\\UniversalAiAssistant.Database\\UniversalAiAssistant.Domain.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-13T09:58:24.823Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\91903\\OneDrive\\Documents\\GitHub\\UniversalAIAssistant\\UniversalAIAssistant\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\91903\\OneDrive\\Documents\\GitHub\\UniversalAIAssistant\\UniversalAIAssistant\\Program.cs",
-              "RelativeToolTip": "Program.cs",
+              "ToolTip": "C:\\Users\\91903\\OneDrive\\Documents\\GitHub\\UniversalAIAssistant\\UniversalAIAssistant\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-13T09:38:45.201Z",
@@ -97,7 +48,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "UniversalAIAssistant.http",
               "DocumentMoniker": "C:\\Users\\91903\\OneDrive\\Documents\\GitHub\\UniversalAIAssistant\\UniversalAIAssistant\\UniversalAIAssistant.http",
               "RelativeDocumentMoniker": "UniversalAIAssistant.http",
@@ -109,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "AppContext.cs",
               "DocumentMoniker": "C:\\Users\\91903\\OneDrive\\Documents\\GitHub\\UniversalAIAssistant\\UniversalAiAssistant.Database\\Entities\\AppContext.cs",
               "RelativeDocumentMoniker": "..\\UniversalAiAssistant.Database\\Entities\\AppContext.cs",
@@ -122,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "AIChatModel.cs",
               "DocumentMoniker": "C:\\Users\\91903\\OneDrive\\Documents\\GitHub\\UniversalAIAssistant\\UniversalAiAssistant.Common\\Global\\AIChatModel.cs",
               "RelativeDocumentMoniker": "..\\UniversalAiAssistant.Common\\Global\\AIChatModel.cs",
@@ -134,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "ChatBotService.cs",
               "DocumentMoniker": "C:\\Users\\91903\\OneDrive\\Documents\\GitHub\\UniversalAIAssistant\\UniversalAiAssistant.BusinessLayer\\Services\\ChatBotService.cs",
               "RelativeDocumentMoniker": "..\\UniversalAiAssistant.BusinessLayer\\Services\\ChatBotService.cs",

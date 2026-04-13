@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UniversalAIAssistant")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92dd90a4c709fbb0d94daa79ecdd5717c52d2193")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c137c5c936a682408012730438e1d36242b90fdf")]
 [assembly: System.Reflection.AssemblyProductAttribute("UniversalAIAssistant")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UniversalAIAssistant")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

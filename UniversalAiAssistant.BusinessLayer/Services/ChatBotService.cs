@@ -8,15 +8,14 @@ using UniversalAiAssistant.Shared.Models;
 using System.Text.RegularExpressions;
 using MySqlConnector;
 using System.Net.Http; 
-using BotAppContext = UniversalAiAssistant.Domain.Entities.AppContext;
 namespace UniversalAIAssistant.Application.Services
 {
     public class ChatBotService : IChatBotService
     {
-        private readonly BotAppContext _dbContext;
+        private readonly AppDbContext _dbContext;
         private readonly IHttpClientFactory _httpClientFactory;
 
-        public ChatBotService(BotAppContext dbContext, IHttpClientFactory httpClientFactory)
+        public ChatBotService(AppDbContext dbContext, IHttpClientFactory httpClientFactory)
         {
             _dbContext = dbContext;
             _httpClientFactory = httpClientFactory;
