@@ -1,0 +1,13 @@
+C:\Users\91903\OneDrive\Documents\GitHub\UniversalAIAssistant\UniversalAiAssistant.Common\bin\Debug\net8.0\UniversalAiAssistant.Shared.deps.json
+C:\Users\91903\OneDrive\Documents\GitHub\UniversalAIAssistant\UniversalAiAssistant.Common\bin\Debug\net8.0\UniversalAiAssistant.Shared.dll
+C:\Users\91903\OneDrive\Documents\GitHub\UniversalAIAssistant\UniversalAiAssistant.Common\bin\Debug\net8.0\UniversalAiAssistant.Shared.pdb
+C:\Users\91903\OneDrive\Documents\GitHub\UniversalAIAssistant\UniversalAiAssistant.Common\obj\Debug\net8.0\UniversalAiAssistant.Shared.csproj.AssemblyReference.cache
+C:\Users\91903\OneDrive\Documents\GitHub\UniversalAIAssistant\UniversalAiAssistant.Common\obj\Debug\net8.0\UniversalAiAssistant.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\91903\OneDrive\Documents\GitHub\UniversalAIAssistant\UniversalAiAssistant.Common\obj\Debug\net8.0\UniversalAiAssistant.Shared.AssemblyInfoInputs.cache
+C:\Users\91903\OneDrive\Documents\GitHub\UniversalAIAssistant\UniversalAiAssistant.Common\obj\Debug\net8.0\UniversalAiAssistant.Shared.AssemblyInfo.cs
+C:\Users\91903\OneDrive\Documents\GitHub\UniversalAIAssistant\UniversalAiAssistant.Common\obj\Debug\net8.0\UniversalAiAssistant.Shared.csproj.CoreCompileInputs.cache
+C:\Users\91903\OneDrive\Documents\GitHub\UniversalAIAssistant\UniversalAiAssistant.Common\obj\Debug\net8.0\UniversalAiAssistant.Shared.sourcelink.json
+C:\Users\91903\OneDrive\Documents\GitHub\UniversalAIAssistant\UniversalAiAssistant.Common\obj\Debug\net8.0\UniversalAiAssistant.Shared.dll
+C:\Users\91903\OneDrive\Documents\GitHub\UniversalAIAssistant\UniversalAiAssistant.Common\obj\Debug\net8.0\refint\UniversalAiAssistant.Shared.dll
+C:\Users\91903\OneDrive\Documents\GitHub\UniversalAIAssistant\UniversalAiAssistant.Common\obj\Debug\net8.0\UniversalAiAssistant.Shared.pdb
+C:\Users\91903\OneDrive\Documents\GitHub\UniversalAIAssistant\UniversalAiAssistant.Common\obj\Debug\net8.0\ref\UniversalAiAssistant.Shared.dll

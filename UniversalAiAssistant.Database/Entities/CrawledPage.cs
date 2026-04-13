@@ -1,8 +1,5 @@
 ﻿using DigiSoft.Database.Entities.CommonFields;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Text;
 
 namespace UniversalAiAssistant.Domain.Entities
 {
@@ -14,6 +11,9 @@ namespace UniversalAiAssistant.Domain.Entities
 
         [Column("content")]
         public string Content { get; set; } = string.Empty;
+
+        [Column("source_type")]
+        public string SourceType { get; set; } = "website";
 
         [Column("last_crawled")]
         public DateTime LastCrawled { get; set; }

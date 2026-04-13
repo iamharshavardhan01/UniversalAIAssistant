@@ -1,30 +1,18 @@
-﻿using Microsoft.EntityFrameworkCore;
-using UniversalAIAssistant.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace UniversalAiAssistant.Domain.Entities
 {
-    public class AppContext : DbContext
+    public class AppDBContext : DbContext
     {
-        public AppContext()
+        public AppDBContext(DbContextOptions<AppDBContext> dbContextOptions) : base(dbContextOptions)
         {
         }
 
-        public AppContext(DbContextOptions<AppContext> dbContextOptions) : base(dbContextOptions)
-        {
-
-        }
-
-
-        public virtual DbSet<ChatBot> ChatBots { get; set; }
-
-        public virtual DbSet<ChatMessage> ChatMessages { get; set; }
-
-        public virtual DbSet<ChatSession> ChatSessions { get; set; }
-
-        public virtual DbSet<QuickAction> QuickActions { get; set; }
-
-        public virtual DbSet<CrawledPage> CrawledPages { get; set; }
-
+        public virtual DbSet<ChatBot> ChatBots => Set<ChatBot>();
+        public virtual DbSet<ChatMessage> ChatMessages => Set<ChatMessage>();
+        public virtual DbSet<ChatSession> ChatSessions => Set<ChatSession>();
+        public virtual DbSet<QuickAction> QuickActions => Set<QuickAction>();
+        public virtual DbSet<CrawledPage> CrawledPages => Set<CrawledPage>();
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -52,12 +40,21 @@ namespace UniversalAiAssistant.Domain.Entities
                 .HasForeignKey(m => m.ChatSessionId)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            // Convert enum to string
             modelBuilder.Entity<ChatBot>()
                 .Property(c => c.ModelName)
                 .HasConversion<string>();
 
-            // modelBuilder.SeedData();
+            modelBuilder.Entity<ChatBot>()
+                .Property(c => c.ProjectName)
+                .HasMaxLength(200);
+
+            modelBuilder.Entity<ChatBot>()
+                .Property(c => c.ProjectUrl)
+                .HasMaxLength(1000);
+
+            modelBuilder.Entity<ChatSession>()
+                .HasIndex(x => x.SessionToken)
+                .IsUnique();
         }
     }
 }

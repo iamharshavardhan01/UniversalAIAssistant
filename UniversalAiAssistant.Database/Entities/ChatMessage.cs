@@ -1,26 +1,25 @@
-﻿using DigiSoft.Database.Entities.CommonFields;
+using DigiSoft.Database.Entities.CommonFields;
 using System.ComponentModel.DataAnnotations.Schema;
-using UniversalAiAssistant.Domain.Entities;
 
-namespace UniversalAIAssistant.Domain.Entities;
-
-[Table("chat_message")]
-public class ChatMessage : PrimaryKey
+namespace UniversalAiAssistant.Domain.Entities
 {
-    [Column("role")]
-    public string Role { get; set; } = string.Empty; // "user" or "assistant"
+    [Table("chat_message")]
+    public class ChatMessage : PrimaryKey
+    {
+        [Column("role")]
+        public string Role { get; set; } = string.Empty;
 
-    [Column("content")]
-    public string Content { get; set; } = string.Empty;
+        [Column("content")]
+        public string Content { get; set; } = string.Empty;
 
-    [Column("time_stamp")]
-    public DateTime Timestamp { get; set; }
+        [Column("time_stamp")]
+        public DateTime Timestamp { get; set; } = DateTime.UtcNow;
 
-    [Column("chat_session_id")]
-    public long ChatSessionId { get; set; }
+        [Column("chat_session_id")]
+        public long ChatSessionId { get; set; }
 
-    [ForeignKey(nameof(ChatSessionId))]
-    [InverseProperty("ChatMessage")]
-    public ChatSession ChatSession { get; set; } = null!;
-
+        [ForeignKey(nameof(ChatSessionId))]
+        [InverseProperty(nameof(ChatSession.ChatMessages))]
+        public ChatSession ChatSession { get; set; } = null!;
+    }
 }
